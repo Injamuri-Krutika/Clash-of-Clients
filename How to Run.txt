@@ -1,0 +1,26 @@
+Step 1: Extract the ClashOfClients.zip into some folder
+
+Step 2: Open Terminal 1
+Step 3: Execute the following command => java -classpath absolutePathToTheFolderExtracted\ClashOfClients\bin com.coc.server.Server
+
+Repeat Steps 4 and 5 for 6 times
+Step 4: Open Terminal 2
+Step 5: Execute the following command => java -classpath absolutePathToTheFolderExtracted\ClashOfClients\bin com.coc.client.Client
+
+In our case the Folder ClashOfClients was present in D:\EclipseWorkspace and hence the command used was
+java -classpath /home/user/Desktop/CoC/ClashOfClients/bin com.coc.server.Server
+java -classpath /home/user/Desktop/CoC/ClashOfClients/bin com.coc.client.Client
+
+The game begins after running 1 server and 6 clients. Two clients are teamed up. Hence there will be 3 teams.
+In total there will be three rounds.
+
+Round 1: Fastest Fingers First
+NOTE: In this round we DONT have to enter anything from the command prompt. It is automatically done in the Client side code.We just have to wait until one of the pair is disconnected
+
+Round 2: Online Quiz
+NOTE: In this round the user has to type input from the command prompt where it is mentioned as "Team Leader please type your input".The answer is case INSENSITIVE
+
+Round 3: Kitne Prathishat	
+NOTE: In this round also user has to type input from both the command prompts.If the input is not integer then score will be added with 100points(as client with minimum points is WINNER)
+
+
